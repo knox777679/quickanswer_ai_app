@@ -1,0 +1,22 @@
+
+name: quickanswer_ai_app
+description: A Flutter app to extract text from images and get AI-generated answers.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.7+4
+  google_mlkit_text_recognition: ^0.7.1
+  http: ^0.13.5
+  google_fonts: ^4.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
